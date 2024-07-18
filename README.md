@@ -21,7 +21,12 @@ NOTE: The following contains steps to install on both PC (mainly Linux), Intel a
 
 3. TBC
 
-## Troubleshooting (up: March 2022)
+## Resources
+
+1. Apple Official: <https://developer.apple.com/metal/pytorch/>
+
+
+## Troubleshooting (up: July 2024)
 
 1. TBC
 
