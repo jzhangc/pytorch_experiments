@@ -1,15 +1,20 @@
 ## pytorch_experiments
-Initial Pytorch experiments
+Initial `Pytorch` experiments
 
 ## Set up virtual environment (up: July 18, 2024)
 
-This is repo is to learn and play with Pytorch
+This is repo is to learn and play with `Pytorch`
 
 NOTE: The following contains steps to install on both PC (mainly Linux), Intel and Apple Silicon Macs.
 
 1. System requirement
 
     PC (with NVIDIA GPU) and Apple Silicon Macs. For Macs (both Intel and Apple Silicon machines), we will use Pytoch's own `Metal Performance Shaders (MPS)` backend for GPU acceleration. 
+
+    `Pytorch` version >= `2.3`
+
+    `Python` version >= `3.7`
+
 
 2. Install miniforge3 (mini coda with forge channel as default)
 
