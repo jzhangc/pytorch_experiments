@@ -1,0 +1,18 @@
+name: apple_tensorflow_intel
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9
+  - jupyter
+  - autopep8
+  - pandas
+  - tqdm
+  - matplotlib
+  - opencv
+  - pip
+  - seaborn
+  - pip:
+      - textualheatmap
+      - scikit-learn
+      - wordcloud

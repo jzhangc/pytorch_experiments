@@ -1,0 +1,25 @@
+name: tensorflow_linux_nvidia
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.9
+  - scikit-learn
+  - jupyter
+  - autopep8
+  - pandas
+  - tqdm
+  - matplotlib
+  - opencv
+  - pip
+  - seaborn
+  - cudatoolkit=11.7 
+  - cudnn
+  - pip:
+      - transformers
+      - tokenizers
+      - textualheatmap
+      - scikit-learn==1.1.1
+      - wordcloud
+      - tensorflow==2.9.1
+      - tensorflow_addons
