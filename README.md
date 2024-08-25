@@ -11,9 +11,9 @@ NOTE: The following contains steps to install on both PC (mainly Linux), Intel a
 
     PC (with NVIDIA GPU) and Apple Silicon Macs. For Macs (both Intel and Apple Silicon machines), we will use Pytoch's own `Metal Performance Shaders (MPS)` backend for GPU acceleration. 
 
-    `Pytorch` version >= `2.3`
+    `Pytorch` version >= `2.4`
 
-    `Python` version >= `3.7`
+    `Python` version >= `3.12`
 
 
 2. Install miniforge3 (mini coda with forge channel as default)
@@ -39,6 +39,19 @@ NOTE: The following contains steps to install on both PC (mainly Linux), Intel a
 4. Install Pytorch
 
           pip3 install torch torchvision torchtext
+
+## Test and verify
+
+1. Base Pytorch
+
+     Installation
+
+          import torch
+          x = torch.rand(5, 3)
+          print(x)
+
+2. 
+
 
 ## Resources
 
