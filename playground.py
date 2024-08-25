@@ -3,6 +3,7 @@ This is the playground for pytorch on both the NVIDIA and Apple platforms.
 
 Resource:
 https://www.learnpytorch.io/pytorch_cheatsheet/#device-agnostic-code-using-pytorch-on-cpu-gpu-or-mps
+https://pytorch.org/get-started/locally/
 
 """
 
