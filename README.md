@@ -44,13 +44,28 @@ NOTE: The following contains steps to install on both PC (mainly Linux), Intel a
 
 1. Base Pytorch
 
+     Version check 
+
+          # Check the version
+          print(f"PyTorch version: {torch.__version__}")
+
      Installation
 
           import torch
           x = torch.rand(5, 3)
           print(x)
 
-2. 
+2. Set up GPU
+
+          if torch.cuda.is_available():
+               device = "cuda"  # NVIDIA GPU
+          elif torch.backends.mps.is_available():
+               device = "mps"  # Apple GPU
+          else:
+               device = "cpu"  # Defaults to CPU if NVIDIA GPU/Apple GPU aren't available
+
+          print(f"Using device: {device}")
+
 
 
 ## Resources

@@ -8,6 +8,8 @@ import torch
 
 # ------ test and verification
 # -- base torch --
+print(f"PyTorch version: {torch.__version__}")
+
 x = torch.rand(5, 3)
 print(x)
 
