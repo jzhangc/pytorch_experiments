@@ -3,8 +3,7 @@ channels:
   - conda-forge
   - nodefaults
 dependencies:
-  - python=3.9
-  - scikit-learn
+  - python=3.12
   - jupyter
   - autopep8
   - pandas
@@ -15,5 +14,5 @@ dependencies:
   - seaborn
   - pip:
       - textualheatmap
-      - scikit-learn==1.1.1
+      - scikit-learn
       - wordcloud

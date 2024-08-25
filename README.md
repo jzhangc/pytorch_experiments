@@ -5,7 +5,7 @@ Initial `Pytorch` experiments
 
 This is repo is to learn and play with `Pytorch`
 
-NOTE: The following contains steps to install on both PC (mainly Linux), Intel and Apple Silicon Macs.
+NOTE: The following contains steps to install on both PC (mainly Linux), Intel and Apple Silicon Macs. This text has yet to include instructions to set up CUDA for NVIDIA GPUs. 
 
 1. System requirement
 
@@ -24,7 +24,21 @@ NOTE: The following contains steps to install on both PC (mainly Linux), Intel a
 
    NOTE 1: Although it is possible to use `conda config --add channels conda-forge`  to manually add the `forge` channel to miniconda, it is generally recommended using miniforge version of conda for both Apple and Intel chips.
 
-3. TBC
+3. Set up environment (will install all the essential libraries)
+
+
+     Apple
+     
+          conda create -f ./inst/environment_apple.yml --prefix ./conda_env_apple
+
+     Linux NVIDIA
+
+          conda create -f ./inst/environment_linux_nivida.yml --prefix ./conda_env_nivida_ln
+
+
+4. Install Pytorch
+
+          pip3 install torch torchvision torchtext
 
 ## Resources
 
