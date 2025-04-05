@@ -29,11 +29,11 @@ NOTE: The following contains steps to install on both PC (mainly Linux), Intel a
 
      Apple
      
-          conda create -f ./inst/environment_apple.yml --prefix ./conda_env_apple
+          conda env create -f ./inst/environment_apple.yml --prefix ./conda_env_apple
 
      Linux NVIDIA
 
-          conda create -f ./inst/environment_linux_nivida.yml --prefix ./conda_env_nivida_ln
+          conda env create -f ./inst/environment_linux_nivida.yml --prefix ./conda_env_nivida_ln
 
 
 4. Install Pytorch
